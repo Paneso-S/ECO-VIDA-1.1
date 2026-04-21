@@ -1,0 +1,48 @@
+/* Fondo ecológico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#b7e4b1, #dff5dc);
+}
+
+/* NAV */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Icono */
+.icono {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+/* Caja blanca */
+.caja-blanca {
+    background: #eaeaea;
+    padding: 25px;
+    width: 320px;
+    border-radius: 25px 25px 0 0;
+    font-weight: bold;
+}
+
+/* Caja verde */
+.caja-verde {
+    background: #0b8f3d;
+    padding: 30px;
+    width: 320px;
+    border-radius: 0 0 30px 30px;
+}
+
+/* Inputs */
+input {
+    border-radius: 10px !important;
+}
+
+/* Botón */
+button {
+    border-radius: 10px !important;
+    font-weight: bold;
+}
