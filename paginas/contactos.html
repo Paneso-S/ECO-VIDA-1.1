@@ -1,58 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactos</title>
-</head>
-<body id="forma">
+<html lang="es">
 
-    <header>
-    <h1 class="forma2">Contacto</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./contactos.css">
+</head>
+
+<body>
+<header>
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">Contactos</a>
+    </div>
+  </nav>
   </header>
 
-  <nav>
-         <ol>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../paginas/iniciodesesion.html">Iniciar sesion</a></li>
-            <li><a href="../paginas/registrarse.html">Registrate</a></li>
-         </ol>
-  </nav>
+  
 
-<section >
-    <h2 class="forma2">Equipo de trabajo conformado por:</h2>
-    
-        <p>samuel.arangopa@ierepublicadehonduras.edu.co</p>
-        <p>diegoalejrandro.lopezva@ierepublicadehonduras.edu.co</p>
-        <p>josedavid.madridzu@ierepublicadehonduras.edu.co</p>
-        <p>juanjose.ramirezar@ierepublicadehonduras.edu.co</p>
-        <p>Valentina.lopezlo@ierepublicadehonduras.edu.co</p>
+  <div class="container mt-4">
 
-    <h2 class="forma2">Envíanos un mensaje o notificanos de algun error</h2>
+    <h1 class="text-center mb-4">Eco-Vida</h1>
 
-    <form>
-        <label>Nombre</label><br>
-        <input type="text" placeholder="Tu nombre">
-        <br><br>
+    <div class="row">
 
-        <label>Correo electrónico</label><br>
-        <input type="email" placeholder="Tu correo">
-        <br><br>
+   
+      <div class="col-md-5">
+        <div class="card p- 3 mb-4">
+          <h4>Equipo de trabajo</h4>
+          <ul>
+            <li>samuel.arangopa@ierepublicadehonduras.edu.co</li>
+            <li>diegoalejandro.lopezva@ierepublicadehonduras.edu.co</li>
+            <li>josedavid.madridzu@ierepublicadehonduras.edu.co</li>
+            <li>juanjose.ramirezar@ierepublicadehonduras.edu.co</li>
+            <li>valentina.lopezlo@ierepublicadehonduras.edu.co</li>
+          </ul>
+        </div>
+      </div>
 
-        <label>Mensaje</label><br>
-        <textarea placeholder="Escribe tu mensaje"></textarea>
-        <br><br>
+  
+      <div class="col-md-7">
+        <div class="card p-3">
+          <h4>Enviar mensaje</h4>
 
-        <button >Enviar</button>
-    </form>
-</section>
+          <form>
+            <div class="mb-3">
+              <label>Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label>Correo</label>
+              <input type="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label>Mensaje</label>
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+
+            <button class="btn btn-primary">Enviar</button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 </body>
-<style>
- #forma{
-    background-color: rgb(165, 244, 165);
- }
- .forma2{
-    color: rgb(6, 98, 98);
- }
-</style>
 </html>
