@@ -1,0 +1,49 @@
+body {
+      background-color: #cde6cd;
+   
+      font-family: Arial, sans-serif;
+    }
+
+ 
+    h1,
+    h4 {
+      color: #145214;
+    
+    }
+
+    
+    .card {
+      border-radius: 10px;
+      border: 1px solid #145214;
+      background-color: #e0f0e0;
+    }
+
+    .form-control {
+      border-radius: 5px;
+      border: 1px solid #145214;
+  
+    }
+
+ 
+    .btn-primary {
+      background-color: #145214;
+   
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0f3a0f;
+     
+    }
+
+
+    .navbar {
+      background-color: #145214 !important;
+   
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+      color: #ffffff;
+    }
+
