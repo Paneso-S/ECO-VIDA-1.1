@@ -8,56 +8,116 @@
 
  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/style.css">
 </head>
 
-<body style="background-color: #cde6cd;">
 
-  
-  <header class="text-center p-2" style="background-color: #000;">
-    <img src="./Imagenes PIA/Reciclaje-04.png" alt="reciclaje" width="50">
-  </header>
+<body class="d-flex flex-column min-vh-100" style="background-color: #cde6cd;">
 
- 
   <nav class="p-2" style="background-color: #2e7d32;">
     <ul class="nav justify-content-center">
-      
       <li class="nav-item">
-        <a class="nav-link text-white" href="../index.html">Inicio</a>
+        <a class="nav-link text-white" href="../paginas/registrarse.html">Registrarse</a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link text-white" href="../paginas/iniciodesesion.html">Iniciar sesión</a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link text-white" href="../paginas/contactos.html">Contactos</a>
+        <a class="nav-link" href="../index.html">INICIO</a>
       </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="../paginas/iniciodesesion.html">INICIO DE SESION</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="../paginas/contactos.html">CONTACTOS</a>
+      </li>
+
     </ul>
   </nav>
 
-  <main class="container mt-4">
+  <main class="container mt-4 flex-fill">
 
-    <h1 class="text-center" style="color: #1b5e20;">ECO-vida</h1>
+    <h1 class="text-center">
+      ECO-vida
+    </h1>
 
     <p class="text-center mt-3" style="color: #555;">
-      ayudanos a transformar tu entorno, protege tu futuro. En ECO-vida te enseñamos a vivir en armonía con la
-      naturaleza a través del consumo responsable y el reciclaje consciente. el cambio comienza con un paso.
-    </p>
+      Ayúdanos a transformar tu entorno, protege tu futuro. En ECO-vida te enseñamos a vivir en armonía con la
+      naturaleza a través del consumo responsable y el reciclaje consciente. El cambio comienza con un paso.
+
+    <div class="d-flex justify-content-center mt-5">
+
+      <div id="carouselExample" class="carousel slide" style="width: 70%; max-width: 750px;">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./Imagenes PIA/WhatsApp Image 2026-05-13 at 1.18.45 PM.jpeg"
+              class="d-block w-100 carousel-img"
+              alt="Reciclaje 1">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./Imagenes PIA/WhatsApp Image 2026-05-13 at 1.22.03 PM.jpeg"
+              class="d-block w-100 carousel-img"
+              alt="Reciclaje 2">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./Imagenes PIA/WhatsApp Image 2026-05-13 at 1.28.52 PM.jpeg"
+              class="d-block w-100 carousel-img"
+              alt="Reciclaje 3">
+
+        <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev">
+
+          <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next">
+
+          <span class="carousel-control-next-icon"></span>
+
+        </button>
 
   </main>
 
-  
-   <br>
-    <br> <br> <br>
-  <footer class="mt-5 p-3 text-center" style="background-color: #2e7d32; color: white;">
-    <h5>Nuestra página</h5>
-    <p>&copy; 2026 - Derechos reservados</p>
+  <footer class="mt-5 p-4 text-white" style="background-color: #2e7d32;">
+    <div class="container">
+      <div class="row text-center text-md-start">
 
-    <h6>Contáctanos</h6>
-    <p>Teléfono de contacto</p>
+        <!-- columna 1    -->
+        <div class="col-md-4 mb-3">
+          <h5>Nuestra página</h5>
+          <p>&copy; 2026 - Derechos reservados</p>
+        </div>
 
-    <h6>Ayuda</h6>
-    <p>Centro de ayuda</p>
-  </footer>
+        <div class="col-md-4 mb-3">
+          <h6>Contáctanos</h6>
+          <p>📞 +57 323 587 3797</p>
+          <p>📧 contacto@ecovida.com</p>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <h6>Ayuda</h6>
+          <p>Centro de ayuda</p>
+          <p>Preguntas frecuentes</p>
+        </div>
+
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
