@@ -1,0 +1,135 @@
+/* fondo */
+body {
+  background: linear-gradient(to bottom, #1b4332, #081c15);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* menú */
+.navbar {
+  background-color: #2d6a4f;
+  padding: 15px;
+  border-bottom: 2px solid white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* botones menú */
+.btn-success {
+  background-color: #40916c;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.btn-success:hover {
+  background-color: #52b788;
+  transform: scale(1.05);
+}
+
+/* título */
+.titulo {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.titulo h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #d8f3dc;
+}
+
+.titulo p {
+  font-size: 18px;
+  color: white;
+}
+
+/* tabla */
+.tabla-container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 50px;
+}
+
+table {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #2d6a4f;
+}
+
+th {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* inputs */
+input,
+select {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+/* botón agregar */
+.btn-agregar {
+  background-color: #40916c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn-agregar:hover {
+  background-color: #52b788;
+  transform: scale(1.05);
+}
+
+/* botón eliminar */
+.btn-eliminar {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+/* footer */
+.footer {
+  background-color: #2d6a4f;
+  border-top: 2px solid white;
+  text-align: center;
+  padding: 20px;
+  color: #d8f3dc;
+  margin-top: auto;
+}

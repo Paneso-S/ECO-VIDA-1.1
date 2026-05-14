@@ -1,0 +1,81 @@
+/* fondo general */
+body {
+  background: linear-gradient(to bottom, #1b4332, #081c15);
+  color: #ffffff;
+}
+
+/* menú */
+nav {
+  background-color: #2d6a4f;
+  border-bottom: 2px solid #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* links menú */
+.nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d8f3dc !important;
+}
+
+/* título */
+h1 {
+  background-color: #40916c;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* párrafo */
+main p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* carrusel */
+.carousel {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.carousel:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* imágenes */
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+}
+
+/* botones carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #2d6a4f;
+  border-top: 2px solid #ffffff;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* textos footer */
+footer h5,
+footer h6,
+footer p {
+  color: #ffffff;
+}
