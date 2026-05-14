@@ -1,24 +1,87 @@
 body{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: linear-gradient(to bottom, #1b4332, #081c15);
+    min-height: 100vh;
+    color: #ffffff;
 }
 
-.caja-blanca{
-     background: white;
-     padding: 25px;
-     width: 320px;
-     border-radius: 30px 30px 0 0 ;
-     font-weight: bold;
-     font-size: 25px;
-     align-items: center;
-
+.navbar{
+    background-color: #2d6a4f;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
-.caja-verde{
-    background: rgb(6, 107, 6);
-    padding: 30px;
-    width: 320px;
-    border-radius: 0 0 30px 30px;
-    text-align: center;
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #d8f3dc !important;
+}
+
+.titulo{
+    background-color: #40916c;
+    color: white;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.formulario{
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid white;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.formulario:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.form-control{
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.form-control::placeholder{
+    color: #d8f3dc;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #d8f3dc;
+    background-color: rgba(255,255,255,0.15);
+    color: white;
+}
+
+.olvide{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.olvide:hover{
+    color: #d8f3dc;
+}
+
+.boton-login{
+    background-color: #2d6a4f;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.boton-login:hover{
+    background-color: #40916c;
+    color: #d8f3dc;
 }
