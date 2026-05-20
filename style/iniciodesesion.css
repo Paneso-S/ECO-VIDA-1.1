@@ -1,87 +1,55 @@
 body{
-    background: linear-gradient(to bottom, #1b4332, #081c15);
+    background: #1c1c1c;
     min-height: 100vh;
-    color: #ffffff;
 }
+
+/* NAVBAR */
 
 .navbar{
-    background-color: #2d6a4f;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    background-color: #14532d;
 }
 
-.navbar-brand{
+.navbar-brand,
+.nav-link{
     color: white !important;
+}
+
+/* TITULO */
+
+.titulo{
+    color: white;
     font-weight: bold;
 }
 
-.nav-link{
-    color: white !important;
-    font-weight: 500;
-    transition: 0.3s;
-}
+/* LOGIN */
 
-.nav-link:hover{
-    color: #d8f3dc !important;
-}
-
-.titulo{
-    background-color: #40916c;
-    color: white;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
-}
-
-.formulario{
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid white;
+.contenedor-login{
+    background: #2a2a2a;
+    padding: 30px;
     border-radius: 15px;
-    backdrop-filter: blur(6px);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
 
-.formulario:hover{
-    background: rgba(255, 255, 255, 0.15);
-}
-
-.form-control{
-    border: 1px solid white;
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-.form-control::placeholder{
-    color: #d8f3dc;
-}
-
-.form-control:focus{
-    box-shadow: none;
-    border-color: #d8f3dc;
-    background-color: rgba(255,255,255,0.15);
-    color: white;
-}
-
-.olvide{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    transition: 0.3s;
-}
-
-.olvide:hover{
-    color: #d8f3dc;
-}
+/* BOTON */
 
 .boton-login{
-    background-color: #2d6a4f;
+    background-color: #22c55e;
     color: white;
-    border: 1px solid white;
+    border: none;
     transition: 0.3s;
 }
 
 .boton-login:hover{
-    background-color: #40916c;
-    color: #d8f3dc;
+    background-color: #16a34a;
+}
+
+/* LINK */
+
+.olvide{
+    color: #86efac;
+    text-decoration: none;
+}
+
+.olvide:hover{
+    text-decoration: underline;
 }
