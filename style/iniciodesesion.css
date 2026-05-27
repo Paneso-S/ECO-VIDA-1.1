@@ -1,45 +1,213 @@
-body{
-    background: #1c1c1c;
-    min-height: 100vh;
+/* ===== GENERAL ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+
+    font-family: 'Segoe UI', sans-serif;
+
+    background: #0f172a;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== NAVBAR ===== */
 
 .navbar{
-    background-color: #14532d;
+    background: #111827;
+
+    padding: 18px 40px;
+
+    border-bottom: 3px solid #22c55e;
 }
 
-.navbar-brand,
 .nav-link{
-    color: white !important;
+    color: #f9fafb !important;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    margin-left: 18px;
+
+    transition: 0.3s;
 }
+
+.nav-link:hover{
+    color: #22c55e !important;
+}
+
+/* ===== CONTENEDOR PRINCIPAL ===== */
+
+.login-area{
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+/* ===== CAJA LOGIN ===== */
+
+.contenedor-login{
+    width: 100%;
+    max-width: 420px;
+
+    background: #1e293b;
+
+    padding: 45px;
+
+    border-radius: 20px;
+
+    border-top: 5px solid #22c55e;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ===== TITULO ===== */
 
 .titulo{
     color: white;
+
+    text-align: center;
+
+    font-size: 42px;
+
     font-weight: bold;
+
+    margin-bottom: 35px;
 }
 
-.contenedor-login{
-    background: #2a2a2a;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+/* ===== LABELS ===== */
+
+label{
+    color: #cbd5e1;
+
+    font-weight: 500;
+
+    margin-bottom: 8px;
+
+    display: block;
 }
+
+/* ===== INPUTS ===== */
+
+.form-control{
+    width: 100%;
+
+    background: #334155;
+
+    border: 2px solid transparent;
+
+    color: white;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+.form-control::placeholder{
+    color: #cbd5e1;
+}
+
+.form-control:focus{
+    outline: none;
+
+    border-color: #22c55e;
+
+    background: #3b4a61;
+
+    box-shadow: 0 0 10px rgba(34,197,94,0.4);
+}
+
+/* ===== BOTON ===== */
 
 .boton-login{
-    background-color: #22c55e;
+    width: 100%;
+
+    background: #22c55e;
+
     color: white;
+
     border: none;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
     transition: 0.3s;
 }
 
 .boton-login:hover{
-    background-color: #16a34a;
+    background: #16a34a;
+
+    transform: translateY(-2px);
 }
 
+/* ===== LINK ===== */
+
 .olvide{
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
     color: #86efac;
+
     text-decoration: none;
+
+    transition: 0.3s;
 }
 
 .olvide:hover{
-    text-decoration: underline;
+    color: white;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    background: #111827;
+
+    color: #cbd5e1;
+
+    text-align: center;
+
+    padding: 18px;
+
+    border-top: 1px solid #374151;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width: 768px){
+
+    .contenedor-login{
+        padding: 30px;
+    }
+
+    .titulo{
+        font-size: 34px;
+    }
+
 }
