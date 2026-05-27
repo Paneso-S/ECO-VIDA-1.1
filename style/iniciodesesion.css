@@ -3,8 +3,6 @@ body{
     min-height: 100vh;
 }
 
-/* NAVBAR */
-
 .navbar{
     background-color: #14532d;
 }
@@ -14,14 +12,10 @@ body{
     color: white !important;
 }
 
-/* TITULO */
-
 .titulo{
     color: white;
     font-weight: bold;
 }
-
-/* LOGIN */
 
 .contenedor-login{
     background: #2a2a2a;
@@ -29,8 +23,6 @@ body{
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
-
-/* BOTON */
 
 .boton-login{
     background-color: #22c55e;
@@ -42,8 +34,6 @@ body{
 .boton-login:hover{
     background-color: #16a34a;
 }
-
-/* LINK */
 
 .olvide{
     color: #86efac;
