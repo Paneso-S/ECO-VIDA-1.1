@@ -1,12 +1,8 @@
-/* ===== RESET ===== */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* ===== BODY ===== */
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -18,14 +14,10 @@ body{
     min-height: 100vh;
 }
 
-/* ===== CONTENEDOR ===== */
-
 .dashboard-container{
     display: flex;
     min-height: 100vh;
 }
-
-/* ===== SIDEBAR ===== */
 
 .sidebar{
     width: 270px;
@@ -42,8 +34,6 @@ body{
 
     box-shadow: 5px 0 20px rgba(0,0,0,0.3);
 }
-
-/* ===== LOGO ===== */
 
 .logo{
     display: flex;
@@ -62,8 +52,6 @@ body{
     font-size: 28px;
     font-weight: bold;
 }
-
-/* ===== MENU ===== */
 
 .nav-menu{
     display: flex;
@@ -117,15 +105,11 @@ body{
     color: white !important;
 }
 
-/* ===== MAIN ===== */
-
 .main-content{
     flex: 1;
 
     padding: 35px;
 }
-
-/* ===== HEADER ===== */
 
 .top-header{
     display: flex;
@@ -148,8 +132,6 @@ body{
 
     font-size: 16px;
 }
-
-/* ===== PERFIL ===== */
 
 .user-profile{
     display: flex;
@@ -190,8 +172,6 @@ body{
     font-size: 18px;
 }
 
-/* ===== TARJETAS ===== */
-
 .stats-grid{
     display: grid;
 
@@ -224,8 +204,6 @@ body{
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-/* ===== ICONOS ===== */
-
 .stat-icon{
     width: 65px;
     height: 65px;
@@ -254,8 +232,6 @@ body{
     color: #f97316;
 }
 
-/* ===== INFO TARJETAS ===== */
-
 .stat-info h3{
     font-size: 30px;
 
@@ -265,8 +241,6 @@ body{
 .stat-info p{
     color: #cbd5e1;
 }
-
-/* ===== FORMULARIO ===== */
 
 .form-container{
     background: #1e293b;
@@ -279,8 +253,6 @@ body{
 
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
-
-/* ===== HEADER FORM ===== */
 
 .form-header{
     margin-bottom: 30px;
@@ -296,15 +268,11 @@ body{
     color: #cbd5e1;
 }
 
-/* ===== FORM ===== */
-
 .admin-form{
     display: flex;
     flex-direction: column;
     gap: 22px;
 }
-
-/* ===== FILAS ===== */
 
 .form-row{
     display: grid;
@@ -313,8 +281,6 @@ body{
 
     gap: 20px;
 }
-
-/* ===== LABEL ===== */
 
 .form-group label{
     display: block;
@@ -325,8 +291,6 @@ body{
 
     color: #f8fafc;
 }
-
-/* ===== INPUTS ===== */
 
 input,
 select,
@@ -364,8 +328,6 @@ textarea{
     resize: none;
 }
 
-/* ===== FILE ===== */
-
 .file-label{
     display: inline-block;
 
@@ -387,8 +349,6 @@ textarea{
 input[type="file"]{
     display: none;
 }
-
-/* ===== BOTONES ===== */
 
 .form-actions{
     display: flex;
@@ -437,8 +397,6 @@ input[type="file"]{
 .btn-secondary:hover{
     background: #64748b;
 }
-
-/* ===== RESPONSIVE ===== */
 
 @media(max-width: 900px){
 

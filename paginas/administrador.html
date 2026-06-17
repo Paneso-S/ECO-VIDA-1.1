@@ -1,224 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Panel de Administración - EcoEstudiantes</title>
+    <title>Eco-Vida</title>
 
     <link rel="stylesheet" href="../style/Profe.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-<div class="dashboard-container">
+    <div class="dashboard-container">
 
-    <aside class="sidebar">
+        <aside class="sidebar">
 
-        <div class="logo">
-            <i class="fa-solid fa-recycle"></i>
-            <h2>Admin</h2>
-        </div>
-
-        <nav class="nav-menu">
-            <a href="#seccion-general" class="active">
-                <i class="fa-solid fa-house"></i>
-                Información General
-            </a>
-
-            <a href="#gestion-clasificaciones">
-                <i class="fa-solid fa-trash-can-arrow-up"></i>
-                Tipos de Reciclaje
-            </a>
-
-            <a href="#gestion-usuarios">
-                <i class="fa-solid fa-users"></i>
-                Alumnos y Actividad
-            </a>
-
-            <a href="index.html" class="logout">
-                <i class="fa-solid fa-right-from-bracket"></i>
-                Ver Sitio Web
-            </a>
-        </nav>
-
-    </aside>
-
-    <main class="main-content">
-
-    
-        <header class="top-header">
-
-            <div class="welcome-text">
-                <h1>Panel de Administración</h1>
-                <p>Gestiona el contenido educativo de reciclaje.</p>
+            <div class="logo">
+                <i class="fa-solid fa-recycle"></i>
+                <h2>Admin</h2>
             </div>
 
-            <div class="user-profile">
-                <span class="role-badge">Administrador</span>
-                <div class="avatar">AD</div>
-            </div>
+             <nav class="nav-menu">
 
-        </header>
+                <a href="../index.html" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    Inicio
+                </a>
 
-        <section class="stats-grid">
+                <a href="./tablatiposR.html">
+                    <i class="fa-solid fa-plus"></i>
+                    Tabla de Reciclaje
+                </a>
 
-            <div class="stat-card">
-                <div class="stat-icon icon-green">
-                    <i class="fa-solid fa-leaf"></i>
-                </div>
-
-                <div class="stat-info">
-                    <h3>4</h3>
-                    <p>Tipos de Reciclaje</p>
-                </div>
-            </div>
-
-            <div class="stat-card">
-                <div class="stat-icon icon-blue">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <div class="stat-info">
-                    <h3>120</h3>
-                    <p>Estudiantes</p>
-                </div>
-            </div>
-
-            <div class="stat-card">
-                <div class="stat-icon icon-orange">
+                <a href="./tablaclasificacion.html">
                     <i class="fa-solid fa-book"></i>
+                    Tabla de Clasificacion
+                </a>
+
+                <a href="./sabermas.html">
+                    <i class="fa-solid fa-users"></i>
+                    Saber mas
+                </a>
+
+                <a href="#" class="logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Cerrar Sesión
+                </a>
+
+            </nav>
+
+        </aside>
+
+        <main class="main-content">
+
+
+            <header class="top-header">
+
+                <div class="welcome-text">
+                    <h1>Panel de Administración</h1>
+                    <p>Gestiona el contenido educativo de reciclaje.</p>
                 </div>
 
-                <div class="stat-info">
-                    <h3>15</h3>
-                    <p>Contenidos Publicados</p>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="seccion-general" class="form-container">
-
-            <div class="form-header">
-                <h2>
-                    <i class="fa-solid fa-pen-to-square"></i>
-                    Información Principal
-                </h2>
-
-                <p>
-                    Modifica la información principal que verán los estudiantes.
-                </p>
-            </div>
-
-            <form class="admin-form"
-                onsubmit="event.preventDefault(); alert('¡Información actualizada!');">
-
-                <div class="form-group">
-                    <label for="titulo-principal">
-                        Título de la Página
-                    </label>
-
-                    <input type="text"
-                        id="titulo-principal"
-                        value="EcoEstudiantes">
+                <div class="user-profile">
+                    <span class="role-badge">Administrador</span>
+                    <div class="avatar">AD</div>
                 </div>
 
-                <div class="form-group">
-                    <label for="texto-boton">
-                        Texto del Botón
-                    </label>
+            </header>
 
-                    <input type="text"
-                        id="texto-boton"
-                        value="¿Qué es el reciclaje y qué puedo hacer aquí?">
+            <section class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-icon icon-green">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <h3>4</h3>
+                        <p>Tipos de Reciclaje</p>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="definicion-reciclaje">
-                        Definición de Reciclaje
-                    </label>
+                <div class="stat-card">
+                    <div class="stat-icon icon-blue">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
 
-                    <textarea id="definicion-reciclaje" rows="5">
+                    <div class="stat-info">
+                        <h3>120</h3>
+                        <p>Estudiantes</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon icon-orange">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <h3>15</h3>
+                        <p>Contenidos Publicados</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="seccion-general" class="form-container">
+
+                <div class="form-header">
+                    <h2>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        Información Principal
+                    </h2>
+
+                    <p>
+                        Modifica la información principal que verán los estudiantes.
+                    </p>
+                </div>
+
+                <form class="admin-form" onsubmit="event.preventDefault(); alert('¡Información actualizada!');">
+
+                    <div class="form-group">
+                        <label for="titulo-principal">
+                            Título de la Página
+                        </label>
+
+                        <input type="text" id="titulo-principal" value="EcoEstudiantes">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="texto-boton">
+                            Texto del Botón
+                        </label>
+
+                        <input type="text" id="texto-boton" value="¿Qué es el reciclaje y qué puedo hacer aquí?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="definicion-reciclaje">
+                            Definición de Reciclaje
+                        </label>
+
+                        <textarea id="definicion-reciclaje" rows="5">
 El reciclaje es el proceso de recolectar y transformar materiales de desecho en nuevos productos.
                     </textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            Guardar Información
+                        </button>
+                    </div>
+
+                </form>
+
+            </section>
+
+            <section id="gestion-clasificaciones" class="form-container">
+
+                <div class="form-header">
+                    <h2>
+                        <i class="fa-solid fa-recycle"></i>
+                        Categorías de Reciclaje
+                    </h2>
+
+                    <p>
+                        Configura los materiales y contenedores de reciclaje.
+                    </p>
                 </div>
 
-                <div class="form-actions">
-                    <button type="submit" class="btn btn-primary">
-                        Guardar Información
-                    </button>
-                </div>
+                <form class="admin-form" onsubmit="event.preventDefault(); alert('¡Clasificaciones actualizadas!');">
 
-            </form>
+                    <div class="form-group">
+                        <label>Papel y Cartón</label>
 
-        </section>
-
-        <section id="gestion-clasificaciones" class="form-container">
-
-            <div class="form-header">
-                <h2>
-                    <i class="fa-solid fa-recycle"></i>
-                    Categorías de Reciclaje
-                </h2>
-
-                <p>
-                    Configura los materiales y contenedores de reciclaje.
-                </p>
-            </div>
-
-            <form class="admin-form"
-                onsubmit="event.preventDefault(); alert('¡Clasificaciones actualizadas!');">
-
-                <div class="form-group">
-                    <label>Papel y Cartón</label>
-
-                    <textarea rows="3">
+                        <textarea rows="3">
 Cuadernos viejos, hojas, cajas de cartón y periódicos.
                     </textarea>
-                </div>
+                    </div>
 
-                <div class="form-group">
-                    <label>Plásticos y Latas</label>
+                    <div class="form-group">
+                        <label>Plásticos y Latas</label>
 
-                    <textarea rows="3">
+                        <textarea rows="3">
 Botellas plásticas, envases y latas de aluminio.
                     </textarea>
-                </div>
+                    </div>
 
-                <div class="form-group">
-                    <label>Vidrio</label>
+                    <div class="form-group">
+                        <label>Vidrio</label>
 
-                    <textarea rows="3">
+                        <textarea rows="3">
 Botellas y frascos de vidrio reciclables.
                     </textarea>
-                </div>
+                    </div>
 
-               
-                <div class="form-group">
-                    <label>Restos Orgánicos</label>
 
-                    <textarea rows="3">
+                    <div class="form-group">
+                        <label>Restos Orgánicos</label>
+
+                        <textarea rows="3">
 Cáscaras, frutas, restos de comida y servilletas usadas.
                     </textarea>
-                </div>
+                    </div>
 
-                <div class="form-actions">
-                    <button type="submit" class="btn btn-primary">
-                        Guardar Clasificaciones
-                    </button>
-                </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            Guardar Clasificaciones
+                        </button>
+                    </div>
 
-            </form>
+                </form>
 
-        </section>
+            </section>
 
-    </main>
+        </main>
 
-</div>
+    </div>
 
 </body>
+
 </html>

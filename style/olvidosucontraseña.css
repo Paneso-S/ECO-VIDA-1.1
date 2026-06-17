@@ -1,91 +1,73 @@
-/* ===== RESET ===== */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
-
 #forma{
     min-height: 100vh;
-
     font-family: 'Segoe UI', sans-serif;
-
     background: #0f172a;
-
     display: flex;
     flex-direction: column;
 }
 
-/* ===== NAVBAR ===== */
-
-.barra-superior{
-    background: #111827;
-
-    padding: 18px 40px;
-
-    border-bottom: 3px solid #22c55e;
+.navbar{
+    background: #081225 !important;
+    border-bottom: 2px solid #38bdf8;
+    min-height: 110px;
 }
 
-/* ===== MARCA ===== */
-
-.marca{
-    color: white;
-
-    font-size: 1.3rem;
-
-    font-weight: bold;
+.navbar .container{
+    max-width: 1400px;
 }
 
-/* ===== LINKS ===== */
-
-.nav-link-custom{
-    color: #f9fafb !important;
-
-    font-size: 16px;
-
-    font-weight: 600;
-
+.navbar-brand{
+    color: #38bdf8 !important;
+    font-size: 36px;
+    font-weight: 800;
     text-decoration: none;
+}
 
-    margin-left: 18px;
+.navbar-brand:hover{
+    color: #38bdf8 !important;
+}
 
+.navbar-nav{
+    gap: 40px;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 600;
     transition: 0.3s;
 }
 
-.nav-link-custom:hover{
-    color: #22c55e !important;
+.nav-link:hover{
+    color: #38bdf8 !important;
 }
 
-/* ===== BOTON MENU ===== */
-
 .navbar-toggler{
-    border-color: white;
+    border: 1px solid #38bdf8;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 .navbar-toggler-icon{
     filter: invert(1);
 }
 
-/* ===== CONTENEDOR ===== */
-
 .main-container{
     flex: 1;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
     align-items: center;
-
     padding: 40px 20px;
 }
-
-/* ===== TITULO ===== */
 
 .titulo-destacado{
     margin-bottom: 30px;
@@ -93,74 +75,44 @@
 
 .titulo-destacado h1{
     color: white;
-
     font-size: 42px;
-
     font-weight: bold;
-
     text-align: center;
 }
-
-/* ===== FORMULARIO ===== */
 
 form{
     width: 100%;
     max-width: 430px;
-
     background: #1e293b;
-
     padding: 45px;
-
     border-radius: 20px;
-
-    border-top: 5px solid #22c55e;
-
+    border-top: 5px solid #2980b9;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/* ===== SUBTITULO ===== */
-
 h2{
     color: white;
-
     text-align: center;
-
     font-size: 28px;
-
     margin-bottom: 30px;
-
     font-weight: bold;
 }
 
-/* ===== LABEL ===== */
-
 .campo-formulario label{
     color: #cbd5e1;
-
     font-weight: 500;
-
     margin-bottom: 8px;
-
     display: block;
 }
 
-/* ===== INPUTS ===== */
-
 .form-control{
     width: 100%;
-
     background: #334155 !important;
-
     border: 2px solid transparent !important;
-
     color: white !important;
-
     padding: 14px !important;
-
     border-radius: 12px !important;
-
     margin-bottom: 22px;
-
     transition: 0.3s;
 }
 
@@ -170,50 +122,39 @@ h2{
 
 .form-control:focus{
     outline: none;
-
-    border-color: #22c55e !important;
-
+    border-color: #2980b9 !important;
     background: #3b4a61 !important;
-
-    box-shadow: 0 0 10px rgba(34,197,94,0.4) !important;
+    box-shadow: 0 0 10px rgba(41,128,185,0.4) !important;
 }
-
-/* ===== BOTON ===== */
 
 .btn-recuperar{
     width: 100%;
-
-    background: #22c55e;
-
+    background: #2980b9;
     color: white;
-
     border: none;
-
     padding: 14px;
-
     border-radius: 12px;
-
     font-size: 17px;
-
     font-weight: bold;
-
     cursor: pointer;
-
     transition: 0.3s;
 }
 
 .btn-recuperar:hover{
-    background: #16a34a;
-
+    background: #1f6692;
     transform: translateY(-2px);
 }
 
-/* ===== RESPONSIVE ===== */
-
 @media(max-width: 768px){
 
-    .barra-superior{
-        padding: 15px 20px;
+    .navbar-brand{
+        font-size: 36px;
+    }
+
+    .navbar-nav{
+        gap: 15px;
+        margin-top: 15px;
+        text-align: center;
     }
 
     form{
@@ -223,5 +164,4 @@ h2{
     .titulo-destacado h1{
         font-size: 34px;
     }
-
 }
