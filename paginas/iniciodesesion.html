@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión</title>
+    <title>Eco-Vida</title>
 
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../style/iniciodesesion.css">
@@ -14,41 +14,63 @@
 
 <body>
 
-    
+
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+    <div class="container">
 
-            <a class="navbar-brand" href="#">
-                Eco-Vida
-            </a>
+        <a class="navbar-brand" href="../index.html">
+            Eco-Vida
+        </a>
 
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#menu">
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <span class="navbar-toggler-icon"></span>
+        <div class="collapse navbar-collapse" id="menu">
 
-            </button>
+            <ul class="navbar-nav ms-auto">
 
-            <div class="collapse navbar-collapse" id="menu">
 
-                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./conocenos.html">
+                        Conócenos
+                    </a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Contactos
-                        </a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactos.html">
+                        Contáctanos
+                    </a>
+                </li>
 
-                 </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="./estudiantes.html">
+                        Estudiante
+                    </a>
+                </li>
 
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Profe.html">
+                        Profesor
+                    </a>
+                </li>
+
+                                <li class="nav-item">
+                    <a class="nav-link" href="./administrador.html">
+                        Administrador
+                    </a>
+                </li>
+
+            </ul>
 
         </div>
-    </nav>
 
-    
+    </div>
+</nav>
+
+
     <header class="text-center mt-5">
 
         <h1 class="titulo">
@@ -57,7 +79,7 @@
 
     </header>
 
-    
+
     <section class="container mt-5 login-section" style="max-width: 420px;">
 
         <div class="contenedor-login">
@@ -68,25 +90,13 @@
                     Correo electrónico
                 </label>
 
-                <input
-                    type="email"
-                    class="form-control mb-3"
-                    placeholder="Correo"
-                    id="Correo"
-                    required
-                >
+                <input type="email" class="form-control mb-3" placeholder="Correo" id="Correo" required>
 
                 <label class="form-label text-white">
                     Contraseña
                 </label>
 
-                <input
-                    type="password"
-                    class="form-control mb-3"
-                    placeholder="Contraseña"
-                    id="password"
-                    required
-                >
+                <input type="password" class="form-control mb-3" placeholder="Contraseña" id="password" required>
 
                 <label class="form-label text-white">
                     Tipo de usuario
@@ -108,11 +118,11 @@
 
                 </select>
 
-                <a href="#" class="olvide">
+                <a href="./olvidosucontraseña.html" class="olvide">
                     Olvidó su contraseña
                 </a>
 
-                <button type="submit"class="btn boton-login w-100 mt-4">
+                <button type="submit" class="btn boton-login w-100 mt-4">
 
                     Iniciar sesión
 
@@ -124,7 +134,7 @@
 
     </section>
 
-    
+
     <section class="container mt-5 d-none" id="panelAdmin">
 
         <div class="alert alert-success">
@@ -145,7 +155,7 @@
 
     </section>
 
-    
+
     <section class="container mt-5 d-none" id="panelProfesor">
 
         <div class="alert alert-warning">
@@ -166,7 +176,7 @@
 
     </section>
 
-    
+
     <section class="container mt-5 d-none" id="panelEstudiante">
 
         <div class="alert alert-primary">
@@ -187,7 +197,7 @@
 
     </section>
 
-  
+
     <script src="../JS/logit.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
