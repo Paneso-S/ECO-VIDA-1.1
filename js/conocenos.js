@@ -4,9 +4,3 @@ if (user !== "admin")(
     window.location.href = "./iniciodesesion.html"
 )
 })
-
-
-
-
-
-
